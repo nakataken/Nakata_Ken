@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #fdcb6e;
+}
+
+.jumbotron {
+  background-color: #ecf0f1;
+}
+
+.large-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  text-align: center;
+  color: #ecf0f1;
+  letter-spacing: 0.1em;
+}
+
+.small-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  color: #ecf0f1;
+}
+
+.icons {
+  list-style: none;
+  margin-left: 0px;
+  text-align: center;
+}
+
+.icons li {
+  display: inline;
+}
+
+.icons a {
+  font-size: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ecf0f1;
+  padding: 15px;
+}
+
+.content-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.social-networks:hover {
+  color: #d35400;
+}
